@@ -1,0 +1,8 @@
+{
+  "name": "ALTRON OS - Voice-Controlled Mobile Operating System",
+  "description": "ALTRON is an advanced centralized voice-controlled mobile operating system compatible with Android and iOS. Features hands-free calling with Truecaller verification, music playback, device control, and dark-theme 3D rotating Earth core.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": []
+}

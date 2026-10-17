@@ -1,0 +1,81 @@
+{
+  "id": "/",
+  "name": "ALTRON OS - Voice-Controlled Mobile Operating System",
+  "short_name": "ALTRON OS",
+  "description": "ALTRON is an advanced centralized voice-controlled mobile operating system compatible with Android and iOS with hands-free calling, music playback, and 3D Earth core.",
+  "start_url": "/?source=pwa",
+  "scope": "/",
+  "display": "standalone",
+  "display_override": ["window-controls-overlay", "standalone", "minimal-ui"],
+  "background_color": "#020617",
+  "theme_color": "#06b6d4",
+  "orientation": "portrait",
+  "categories": ["utilities", "productivity"],
+  "shortcuts": [
+    {
+      "name": "ALTRON Central Voice",
+      "short_name": "Voice Assistant",
+      "description": "Instant hands-free Altron voice commands",
+      "url": "/?action=voice",
+      "icons": [
+        {
+          "src": "/icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Direct Phone Call",
+      "short_name": "Direct Call",
+      "description": "Dial specific numbers via Truecaller/Cellular",
+      "url": "/?action=call",
+      "icons": [
+        {
+          "src": "/icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "ALTRON Dashboard",
+      "short_name": "OS Dashboard",
+      "description": "Central phone controls and 3D Earth core",
+      "url": "/?action=dashboard",
+      "icons": [
+        {
+          "src": "/icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    }
+  ],
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/altron-icon.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
